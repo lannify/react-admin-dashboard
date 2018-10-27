@@ -1,0 +1,16 @@
+.main {
+  padding: 0;
+  background: #f6f6f6;
+
+  .overview {
+    padding: 0 2rem;
+    width: 100%;
+    box-shadow: 0px 0px 2px 0px #d2d1d1;
+  }
+
+  .graphSection,
+  .latestSection {
+    padding: 2rem;
+    box-shadow: 0px 0px 2px 0px #d2d1d1;
+  }
+}

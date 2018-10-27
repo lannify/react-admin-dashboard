@@ -1,0 +1,39 @@
+{
+  "name": "react-admin-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^4.0.0",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-count-to": "^0.8.0",
+    "react-dom": "^15.5.4",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^4.0.8",
+    "recharts": "^1.0.0-alpha.0",
+    "redux": "^3.6.0",
+    "redux-form": "^6.7.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-react": "^0.68.4"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "node-sass-chokidar": "0.0.1",
+    "react-scripts": "1.0.6",
+    "react-test-renderer": "^15.5.4"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "yarn run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "jest": {}
+}

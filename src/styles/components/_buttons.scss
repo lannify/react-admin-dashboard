@@ -1,0 +1,39 @@
+.btnCommon,
+.ui .button {
+  height: 44px;
+  display: inline-block;
+  line-height: 44px;
+  padding: 0 25px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  border-radius: 4px;
+  font-size: 15px;
+  letter-spacing: .15em;
+  text-decoration: none;
+  transition: all .15s ease;
+  text-transform: uppercase;
+  color: #5c63ce;
+  border:none;
+  margin-top: 1rem;
+}
+
+.btnWhite {
+  background: #fff;
+}
+
+.btnOutline {
+  border: 1px solid #0986c1;
+  background: none;
+  color: #0986c1;
+}
+
+.btnPrimary,
+.ui .button {
+  color: #fff;
+  background: linear-gradient(130deg,#fc00ff, #0097de);
+}
+
+.btnPrimary:hover,
+.ui .button:hover {
+  color: #fff;
+  background: linear-gradient(130deg, #b84eb9, #0986c1);
+}

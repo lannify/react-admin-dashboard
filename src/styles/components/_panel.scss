@@ -1,0 +1,10 @@
+.panel {
+  display: flex;
+  flex-direction: row;
+
+  .panelImage,
+  .panelContent {
+    display: inline-block;
+    padding: .5rem;
+  }
+}

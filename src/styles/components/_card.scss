@@ -1,0 +1,40 @@
+.card {
+  border: none;
+}
+
+.hCard {
+  display: flex;
+  flex-direction: row;
+  height: 105px;
+  width: 100%;
+  margin: 1rem 0;
+
+  .dataWrapper{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconWrapper {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .number {
+    font-size: 2.2em;
+    line-height: 1;
+    margin-bottom: .25rem;
+    margin-top: .5rem;
+  }
+}
+
+.vCard {
+  padding: 1rem;
+}
